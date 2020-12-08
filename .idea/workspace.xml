@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a718221-d9d1-4fc7-9f3f-bb8eeea9352f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Todos/Todos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Todos/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_todos.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607416526927</updated>
-      <workItem from="1607416528130" duration="4083000" />
+      <workItem from="1607416528130" duration="4577000" />
     </task>
     <servers />
   </component>
