@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from '../NavBar';
+import About from '../About';
 
 const App: React.FC = () => {
     return (
@@ -8,7 +9,7 @@ const App: React.FC = () => {
             <NavBar />
             <Switch>
                 <Route exact path="/" />
-                <Route path="/about" />
+                <Route path="/about" component={About} />
                 <Route path="/" />
             </Switch>
         </Router>

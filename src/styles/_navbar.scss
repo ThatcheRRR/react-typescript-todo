@@ -1,0 +1,12 @@
+header {
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+  }
+}
