@@ -18,7 +18,7 @@ const TodosList: React.FC<TodosListProps> = ({ todos, handleCheck }) => {
         <List>
             {todos.map(item => (
                 <ListItem key={item.id}>
-                    <Checkbox checked={item.completed} onChange={handleCheck.bind(null, item.id)} />
+                    <Checkbox checked={item.completed} onClick={handleCheck.bind(null, item.id)} />
                     <Typography>
                         {item.title}
                     </Typography>

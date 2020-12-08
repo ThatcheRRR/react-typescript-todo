@@ -27,6 +27,7 @@ const Todos: React.FC = () => {
     const handleCheck = (id: number) => {
         setTodos(prev => prev.map(item => {
             if(item.id === id) {
+                console.log(item.completed);
                 item.completed = !item.completed;
             }
             return item;
