@@ -8,7 +8,7 @@ const About: React.FC = () => {
                 This is information page. Nothing interesting here
             </Typography>
         </div>
-    )
+    );
 };
 
 export default About;

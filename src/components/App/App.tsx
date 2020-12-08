@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import NavBar from '../NavBar';
 import About from '../About';
 import Todos from '../Todos';
@@ -11,10 +11,10 @@ const App: React.FC = () => {
             <Switch>
                 <Route exact path="/" component={Todos} />
                 <Route path="/about" component={About} />
-                <Route path="/" />
+                <Redirect to="/" />
             </Switch>
         </Router>
-    )
+    );
 };
 
 export default App;

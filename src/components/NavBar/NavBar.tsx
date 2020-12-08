@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
                 </Button>
             </Toolbar>
         </AppBar>
-    )
+    );
 };
 
 export default NavBar;
